@@ -2,17 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Disabled</key>
+	<true/>
 	<key>Label</key>
 	<string>cdz.curie-match</string>
-	<key>ProgramArguments</key>
-	<array>
-		<string>/Users/cdzombak/Applications/curie-match.sh</string>
-	</array>
+	<key>Program</key>
+	<string>/Users/cdzombak/Applications/curie-match</string>
 	<key>RunAtLoad</key>
 	<true/>
 	<key>StartInterval</key>
-	<integer>3600</integer>
+	<integer>1800</integer>
 </dict>
 </plist>
-
-<!-- @@@@LingonWhatStart:/Users/cdzombak/Applications/curie-match.sh@@@@LingonWhatEnd -->
